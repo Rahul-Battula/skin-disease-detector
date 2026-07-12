@@ -23,6 +23,7 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:3000",
+        "https://dermex.vercel.app",
         "https://skin-disease-detector-virid.vercel.app",
     ],
     allow_credentials=True,
